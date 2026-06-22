@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medium Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="logo">Medium</div>
+
+        <div class="search-box">
+            <i class="fa fa-search"></i>
+            <input type="text" placeholder="Search">
+        </div>
+
+        <div class="header-right">
+            <button class="app-btn">Get app</button>
+            <i class="fa-regular fa-pen-to-square"></i>
+            <i class="fa-regular fa-bell"></i>
+            <img src="https://i.pravatar.cc/40" alt="profile">
+        </div>
+    </header>
+
+    <div class="container">
+
+        <!-- Left Sidebar -->
+        <aside class="sidebar">
+            <ul>
+                <li><i class="fa fa-house"></i> Home</li>
+                <li><i class="fa-regular fa-bookmark"></i> Library</li>
+                <li><i class="fa-regular fa-user"></i> Profile</li>
+                <li><i class="fa-regular fa-file"></i> Stories</li>
+                <li><i class="fa-solid fa-chart-column"></i> Stats</li>
+            </ul>
+
+            <div class="following">
+                <h3>Following</h3>
+                <p>Find writers and publications to follow.</p>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="content">
+
+            <div class="tabs">
+                <span class="active">For you</span>
+                <span>Featured</span>
+            </div>
+
+            <article class="post">
+                <div class="post-text">
+                    <p class="category">In Books</p>
+                    <h2>“Women Are Basically Reading Porn”</h2>
+                    <p class="desc">
+                        And other misogynistic comments I receive when I say
+                        I’m a fiction reader.
+                    </p>
+
+                    <div class="stats">
+                        <span>⭐ 6.9K</span>
+                        <span>💬 348</span>
+                        <span>🔁 208</span>
+                    </div>
+                </div>
+
+                <img src="https://picsum.photos/250/160?random=1">
+            </article>
+
+            <article class="post">
+                <div class="post-text">
+                    <p class="category">In Data Science Collective</p>
+                    <h2>Should You Still Learn to Code in 2026?</h2>
+                    <p class="desc">
+                        The answer isn’t as obvious as I used to believe.
+                    </p>
+
+                    <div class="stats">
+                        <span>⭐ 3.8K</span>
+                        <span>💬 201</span>
+                        <span>🔁 116</span>
+                    </div>
+                </div>
+
+                <img src="https://picsum.photos/250/160?random=2">
+            </article>
+
+        </main>
+
+        <!-- Right Sidebar -->
+        <aside class="rightbar">
+
+            <h2>Staff Picks</h2>
+
+            <div class="staff-item">
+                <p>Our LGBT Literary Heroes Had a Pride That Took Boldness and Guts</p>
+                <span>May 31</span>
+            </div>
+
+            <div class="staff-item">
+                <p>We used to log off</p>
+                <span>5d ago</span>
+            </div>
+
+            <div class="staff-item">
+                <p>The Carp Flies for Boys. The Doll Sits for Girls.</p>
+                <span>Jun 4</span>
+            </div>
+
+            <h2>Recommended Topics</h2>
+
+            <div class="topics">
+                <span>Programming</span>
+                <span>Data Science</span>
+                <span>Writing</span>
+                <span>Technology</span>
+                <span>Self Improvement</span>
+            </div>
+
+        </aside>
+
+    </div>
+
+</body>
+</html>
